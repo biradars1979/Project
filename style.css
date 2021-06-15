@@ -1,0 +1,77 @@
+#Wel {
+    position:absolute;
+    overflow:hidden;
+    height: 800px;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-top:20px;
+}
+
+.line {
+    width: 60px;
+    height: 6px;
+    background-color: black;
+    margin:8px auto;
+}
+
+img {
+    border-radius: 50%;
+    border-color: black;
+  height:300px;
+}
+.menu{
+list-style: none;
+position:absolute;
+right: 30px;    
+top: 0px;
+cursor: pointer;
+z-index:10;
+  
+}
+.links{
+font-family:monospace;
+float:left;
+color:black;
+padding-right:9px;
+padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:20px;
+    
+}
+.links:hover{
+    background-color:bisque;
+}
+
+
+  body{
+    
+ background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  text-align:center;
+}
+
+  a{
+    text-decoration: none;
+}
+  h1{
+ padding-top:30px;
+}
+#image{
+  height:150px;
+  border:#ff4da6 inset 6px;
+  border-radius: 90px;
+}
+p{
+  font-family:cursive;
+  
+}
+#name{
+  font-style:italic;
+}
+#reason{
+background: rgb(9,90,121);
+background: linear-gradient(90deg, rgba(9,90,121,1) 0%, rgba(163,229,242,1) 69%);
+}
